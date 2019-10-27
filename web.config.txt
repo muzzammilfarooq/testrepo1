@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-game change 
+WEb config
 
 </body>
 </html>
