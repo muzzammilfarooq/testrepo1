@@ -3,9 +3,8 @@ os: windows
 files:
   - source: \index.html
     destination: C:\mksolutions.com
-    - source: \web.config
-    destination: C:\mksolutions.com
-    
+  - source: \web.config
+    destination: C:\mksolutions.com  
 hooks:
   BeforeInstall:
     - location: \before-install.bat
