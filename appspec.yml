@@ -3,7 +3,7 @@ os: windows
 files:
   - source: \index.html
     destination: C:\mksolutions.com
-  - source: \web.config
+  - source: \web.txt
     destination: C:\mksolutions.com  
 hooks:
   BeforeInstall:
