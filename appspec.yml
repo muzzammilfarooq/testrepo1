@@ -5,7 +5,7 @@ files:
     destination: C:\mksolutions.com
   - source: \web.txt
     destination: C:\mksolutions.com  
-      - source: \web.config.txt
+  - source: \web.config.txt
     destination: C:\mksolutions.com  
 hooks:
   BeforeInstall:
