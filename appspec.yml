@@ -1,9 +1,13 @@
 version: 0.0
 os: windows
 files:
-  - source: \*
+  - source: \index.html
     destination: C:\mksolutions.com
- 
+  - source: \web.txt
+    destination: C:\mksolutions.com  
+      - source: \web.config.txt
+    destination: C:\mksolutions.com  
+hooks:
   BeforeInstall:
     - location: \before-install.bat
       timeout: 900
