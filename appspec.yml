@@ -1,9 +1,11 @@
 version: 0.0
 os: windows
 files:
-  - source: \index.html,
-  \web.config
+  - source: \index.html
     destination: C:\mksolutions.com
+    - source: \web.config
+    destination: C:\mksolutions.com
+    
 hooks:
   BeforeInstall:
     - location: \before-install.bat
